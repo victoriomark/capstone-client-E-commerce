@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e3d5d5-c5e8-456a-aabc-73e8d2d84dd0" name="Changes" comment="" />
+    <list default="true" id="d9e3d5d5-c5e8-456a-aabc-73e8d2d84dd0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/images/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/list-items.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/categoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/categoryModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/categoryManagement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93b7866-73df-415b-aea1-3317a72ebe54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c93b7866-73df-415b-aea1-3317a72ebe54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductImages/capstone_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductImages/ttt.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/orderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/orderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/productController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/productController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/orderModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/orderModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/productModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/productModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/productManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/productManagement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +33,15 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/controller/orderController.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/categoryManagement.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/dashboard.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/views/orderManagament.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/productManagement.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/views/store.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
@@ -33,12 +58,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;L:/Downloads/E-Commerce-Capstone&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -78,6 +105,14 @@
       <workItem from="1729671074038" duration="380000" />
       <workItem from="1729674310122" duration="6742000" />
       <workItem from="1729683165207" duration="15115000" />
+      <workItem from="1729698932880" duration="249000" />
+      <workItem from="1729716570802" duration="8486000" />
+      <workItem from="1729725283261" duration="4481000" />
+      <workItem from="1729733156622" duration="4467000" />
+      <workItem from="1729750754117" duration="21000" />
+      <workItem from="1729772018645" duration="670000" />
+      <workItem from="1729773581644" duration="10243000" />
+      <workItem from="1729809619583" duration="18410000" />
     </task>
     <servers />
   </component>
