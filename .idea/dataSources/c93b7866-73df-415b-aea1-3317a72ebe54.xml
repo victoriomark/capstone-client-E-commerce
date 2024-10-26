@@ -1145,7 +1145,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     </schema>
     <schema id="325" parent="1" name="capstone_ecommerce">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-10-25.01:42:04</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-10-26.08:46:40</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <schema id="326" parent="1" name="cdcms_database">
@@ -1268,7 +1268,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="360" parent="350" name="id">
-      <AutoIncrement>115</AutoIncrement>
+      <AutoIncrement>119</AutoIncrement>
       <DasType>int(10) unsigned|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1308,7 +1308,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="369" parent="351" name="categoryId">
-      <AutoIncrement>5</AutoIncrement>
+      <AutoIncrement>7</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1329,7 +1329,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="373" parent="352" name="OrderId">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>5</AutoIncrement>
       <DasType>int(10) unsigned|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1383,88 +1383,92 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <DefaultExpression>&apos;Pending&apos;</DefaultExpression>
       <Position>11</Position>
     </column>
-    <index id="384" parent="352" name="PRIMARY">
+    <column id="384" parent="352" name="proof">
+      <DasType>varchar(250)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <index id="385" parent="352" name="PRIMARY">
       <ColNames>OrderId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="385" parent="352" name="PRIMARY">
+    <key id="386" parent="352" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="386" parent="353" name="product_Id">
+    <column id="387" parent="353" name="product_Id">
       <AutoIncrement>3</AutoIncrement>
       <DasType>int(10) unsigned|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="387" parent="353" name="ProductName">
+    <column id="388" parent="353" name="ProductName">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="388" parent="353" name="Price">
+    <column id="389" parent="353" name="Price">
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="389" parent="353" name="image">
+    <column id="390" parent="353" name="image">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="390" parent="353" name="archiveStatus">
+    <column id="391" parent="353" name="archiveStatus">
       <DasType>varchar(250)|0s</DasType>
       <DefaultExpression>&apos;Active&apos;</DefaultExpression>
       <Position>5</Position>
     </column>
-    <column id="391" parent="353" name="Stack">
+    <column id="392" parent="353" name="Stack">
       <DasType>int(11)|0s</DasType>
       <Position>6</Position>
     </column>
-    <index id="392" parent="353" name="PRIMARY">
+    <index id="393" parent="353" name="PRIMARY">
       <ColNames>product_Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="393" parent="353" name="PRIMARY">
+    <key id="394" parent="353" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="394" parent="354" name="userId">
+    <column id="395" parent="354" name="userId">
       <AutoIncrement>5</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="395" parent="354" name="userName">
+    <column id="396" parent="354" name="userName">
       <DasType>varchar(250)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="396" parent="354" name="password">
+    <column id="397" parent="354" name="password">
       <DasType>varchar(250)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="397" parent="354" name="Address">
+    <column id="398" parent="354" name="Address">
       <DasType>varchar(250)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="398" parent="354" name="phone">
+    <column id="399" parent="354" name="phone">
       <DasType>varchar(250)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="399" parent="354" name="Name">
+    <column id="400" parent="354" name="Name">
       <DasType>varchar(250)|0s</DasType>
       <Position>6</Position>
     </column>
-    <index id="400" parent="354" name="PRIMARY">
+    <index id="401" parent="354" name="PRIMARY">
       <ColNames>userId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="401" parent="354" name="PRIMARY">
+    <key id="402" parent="354" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
