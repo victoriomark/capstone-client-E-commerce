@@ -1145,7 +1145,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     </schema>
     <schema id="325" parent="1" name="capstone_ecommerce">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-10-26.08:46:40</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-10-26.16:07:23</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <schema id="326" parent="1" name="cdcms_database">
@@ -1427,48 +1427,52 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <DasType>int(11)|0s</DasType>
       <Position>6</Position>
     </column>
-    <index id="393" parent="353" name="PRIMARY">
+    <column id="393" parent="353" name="category">
+      <DasType>varchar(100)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="394" parent="353" name="PRIMARY">
       <ColNames>product_Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="394" parent="353" name="PRIMARY">
+    <key id="395" parent="353" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="395" parent="354" name="userId">
+    <column id="396" parent="354" name="userId">
       <AutoIncrement>5</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="396" parent="354" name="userName">
+    <column id="397" parent="354" name="userName">
       <DasType>varchar(250)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="397" parent="354" name="password">
+    <column id="398" parent="354" name="password">
       <DasType>varchar(250)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="398" parent="354" name="Address">
+    <column id="399" parent="354" name="Address">
       <DasType>varchar(250)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="399" parent="354" name="phone">
+    <column id="400" parent="354" name="phone">
       <DasType>varchar(250)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="400" parent="354" name="Name">
+    <column id="401" parent="354" name="Name">
       <DasType>varchar(250)|0s</DasType>
       <Position>6</Position>
     </column>
-    <index id="401" parent="354" name="PRIMARY">
+    <index id="402" parent="354" name="PRIMARY">
       <ColNames>userId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="402" parent="354" name="PRIMARY">
+    <key id="403" parent="354" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
