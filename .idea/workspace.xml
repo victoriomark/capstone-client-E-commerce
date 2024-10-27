@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e3d5d5-c5e8-456a-aabc-73e8d2d84dd0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93b7866-73df-415b-aea1-3317a72ebe54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c93b7866-73df-415b-aea1-3317a72ebe54.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/cartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/cartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/categoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/categoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/orderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/orderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/productController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/productController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cartModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cartModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/orderModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/orderModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/productModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/productModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/AuthModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AuthModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/orderManagament.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/orderManagament.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/productManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/productManagement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/store.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +25,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/loginAdmin.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/controller/orderController.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/categoryManagement.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/dashboard.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -51,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/PhpstormProjects/INVENTORY-MANAGEMENT-SYSTEM&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "L:/PhpstormProjects/CapstoneProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="L:\Downloads\E-Commerce-Capstone" />
@@ -120,7 +112,7 @@
       <workItem from="1729954487772" duration="7264000" />
       <workItem from="1729983439970" duration="16988000" />
       <workItem from="1730012579060" duration="169000" />
-      <workItem from="1730012761396" duration="6994000" />
+      <workItem from="1730012761396" duration="12588000" />
     </task>
     <servers />
   </component>
