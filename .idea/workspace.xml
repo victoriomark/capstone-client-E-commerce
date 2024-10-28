@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e3d5d5-c5e8-456a-aabc-73e8d2d84dd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/itemController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/inventoryModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/inventory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/userOrders.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93b7866-73df-415b-aea1-3317a72ebe54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c93b7866-73df-415b-aea1-3317a72ebe54.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/productManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/productManagement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/itemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/itemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/orderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/orderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/inventoryModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/inventoryModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/orderModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/orderModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/inventory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/inventory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/store.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/loginAdmin.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/controller/orderController.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/orderController.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/views/categoryManagement.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/dashboard.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/views/inventory.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
@@ -45,26 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/PhpstormProjects/CapstoneProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowDuplicates.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "L:/PhpstormProjects/CapstoneProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="L:\Downloads\E-Commerce-Capstone" />
@@ -117,7 +120,11 @@
       <workItem from="1730012761396" duration="12933000" />
       <workItem from="1730029829344" duration="708000" />
       <workItem from="1730032370843" duration="6025000" />
-      <workItem from="1730039207951" duration="3447000" />
+      <workItem from="1730039207951" duration="3941000" />
+      <workItem from="1730080187928" duration="6036000" />
+      <workItem from="1730086382092" duration="1163000" />
+      <workItem from="1730108140846" duration="805000" />
+      <workItem from="1730113736355" duration="4410000" />
     </task>
     <servers />
   </component>
