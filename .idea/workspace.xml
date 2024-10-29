@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e3d5d5-c5e8-456a-aabc-73e8d2d84dd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/userOrders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/adminLogout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/riderManagement.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93b7866-73df-415b-aea1-3317a72ebe54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c93b7866-73df-415b-aea1-3317a72ebe54.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/itemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/itemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/loginAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/categoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/categoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/orderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/orderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/inventoryModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/inventoryModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/productController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/productController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/riderConroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/riderConroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/AuthModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AuthModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/orderModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/orderModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/inventory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/inventory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/riderModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/riderModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/riderLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/riderLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/riderView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/riderView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/store.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +45,8 @@
     <setting file="file://$PROJECT_DIR$/src/views/inventory.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/orderManagament.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/productManagement.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/views/riderLogin.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/views/riderManagement.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/riderView.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/store.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
@@ -53,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindowDuplicates.ShowToolbar": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "L:/PhpstormProjects/CapstoneProject",
+    "last_opened_file_path": "L:/PhpstormProjects/INVENTORY-MANAGEMENT-SYSTEM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,6 +137,12 @@
       <workItem from="1730086382092" duration="1163000" />
       <workItem from="1730108140846" duration="805000" />
       <workItem from="1730113736355" duration="4410000" />
+      <workItem from="1730120758628" duration="2106000" />
+      <workItem from="1730125166472" duration="4751000" />
+      <workItem from="1730158907191" duration="11335000" />
+      <workItem from="1730174633710" duration="1704000" />
+      <workItem from="1730182505114" duration="3560000" />
+      <workItem from="1730194282786" duration="4733000" />
     </task>
     <servers />
   </component>
